@@ -26,7 +26,7 @@ The above will build the prototype and run all unit tests.
     mvn exec:java
 
 ## Explore
-* Monitors the console logs output by the three applications
-* Venue simulator is going to periodically subscribe to different symbols, receive quotes and cancel RFQs
+* Monitor the logs output to the console by each applications
+* Venue simulator periodically subscribes to different symbols, receive quotes and then cancels RFQs
 * Bridge is passing messages between the venue and the bank
 * Bank simulator generates quotes in response to RFQ requests
