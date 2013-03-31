@@ -1,0 +1,11 @@
+[default]
+ConnectionType=acceptor
+StartTime=00:00:00
+EndTime=00:00:00
+FileStorePath=/tmp/fix/data/venue
+SenderCompID=VENUE
+
+[session]
+BeginString=FIX.4.2
+SocketAcceptPort=9878
+TargetCompID=BRIDGE

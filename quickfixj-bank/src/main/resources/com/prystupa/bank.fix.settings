@@ -1,0 +1,11 @@
+[default]
+ConnectionType=acceptor
+StartTime=00:00:00
+EndTime=00:00:00
+FileStorePath=/tmp/fix/data/bank
+SenderCompID=BANK
+TargetCompID=BRIDGE
+
+[session]
+BeginString=FIX.4.2
+SocketAcceptPort=9978
